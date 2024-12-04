@@ -3,10 +3,10 @@ import 'package:intl/intl.dart';
 
 class AppControllers {
   static DateFormat dateFormat = DateFormat.yMMMMd();
-  static DateFormat formattedDateMM = DateFormat("MMM dd, yyyy");
+  static DateFormat formattedDatedd = DateFormat("dd MMM, yyyy");
 
   static String getDateText(DateTime date) {
-    String _dateText = formattedDateMM.format(date);
+    String _dateText = formattedDatedd.format(date);
     if (date.year == DateTime.now().year) {
       _dateText = _dateText.replaceAll(", ${date.year.toString()}", '');
     }
