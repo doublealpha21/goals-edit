@@ -3,12 +3,10 @@ import 'package:flutter/rendering.dart';
 
 class AppStyles {
 // Colors
-
   static const Color backgroundColor = Color(0XFF151617);
   static const Color goalBackgroundColor = Color(0XFF202324);
 
 // Text Styles
-
   static const TextStyle mainGreenHeadingStyle = TextStyle(
     color: Colors.green,
     fontFamily: 'Montserrat',
