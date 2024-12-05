@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
             horizontal: 25.0,
             vertical: 15.0,
           ),
-          color: Colors.green.shade700,
+          color: Colors.green.shade500,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(50),
           ),
