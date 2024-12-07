@@ -55,6 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
           },
           child: Text(
             _index == 0 ? 'New Goal' : 'Add Task',
+            textAlign: TextAlign.start,
           ),
         ),
       ),
